@@ -43,4 +43,11 @@ public class order {
         Date date = date1;
     
     }
+    
+    public void setnumber(String num)
+    {
+    
+        String number = num;
+    
+    }
 }
