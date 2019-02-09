@@ -15,20 +15,13 @@ public class Customer {
     
     String name,location;
     
-  public Customer(String name1, String location1){
-   
-       this.name=name1;
-       this.location=location1;
-   }
-   
-   public void getname(){
-
-       System.out.println("");
-   
-   }
-        
-
+    public void sendOrder(){
     
-   }
-    
+        System.out.println("sendOrder");
+    }
 
+    public void receiveorder(){
+    
+        System.out.println("receiveorder");
+    }
+}
