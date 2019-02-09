@@ -15,39 +15,18 @@ public class order {
     Date date;
     String number;
     
-    public order(String num,Date date1)
+    public void confirm()
     {
     
-        this.number = num;
-        this.date = date1;
+        System.out.println("Order confirm");
     
     }
     
-    public Date getDate()
+    public void close()
     {
     
-        return date;
+        System.out.println("Order close");
     
     }
     
-    public String getnumber()
-    {
-    
-        return number;
-    
-    }
-    
-    public void setDate(Date date1)
-    {
-    
-        Date date = date1;
-    
-    }
-    
-    public void setnumber(String num)
-    {
-    
-        String number = num;
-    
-    }
 }
